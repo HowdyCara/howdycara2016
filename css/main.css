@@ -10,7 +10,6 @@ body {
     rgba(62,180,178,1) 0%,
     rgba(113,232,205,1) 125px
   );
-
   color: #453629; 
   font-family: 'Allerta', sans-serif;
   padding: 0px;
@@ -30,7 +29,16 @@ header {
   width: 100%;
   max-width: 1200px;
   //border: 1px dashed white;
-  min-height: 150px;
+  height: 250px;
+  overflow: hidden;
+}
+
+header .logo { /* fix me */
+  width: 90%;
+  top: -175px;
+  position: relative;
+  margin: 0 auto;
+  display: block;
 }
 
 nav {
@@ -76,10 +84,12 @@ nav ul li {
   background: white;
 }
 
-#slider {
+.slider {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
+  padding-top: 4px;
+  padding-bottom: 10px;
 }
 
 .quoteBar {
@@ -91,7 +101,7 @@ nav ul li {
   width: 100%;
   margin: 0 auto;
   padding: 20px;
-  color: #a3afaa;
+  color: #5b605e;
   font-family: georgia, serif;
   font-style: italic;
   font-size: 1.6rem;
@@ -138,4 +148,10 @@ footer {
 
 /* RESPONSIVE*/
 
-
+@media (min-width: XXXpx) {
+  .wrapper {
+    width: 80%;
+    max-width: 1120px;
+    margin: 0 auto;    
+    }
+}

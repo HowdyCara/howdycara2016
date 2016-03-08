@@ -8,11 +8,14 @@
     <link rel="shortcut icon" href="favicon.ico">
 	<link rel="stylesheet" href="css/main.css">
     <link href='https://fonts.googleapis.com/css?family=Allerta' rel='stylesheet' type='text/css'>
+  	<link rel="stylesheet" href="css/flexslider.css">
+
 </head>
 
 <body>
     <div id="wrapper">
         <header>
+          <img src="img/howdy.png" class="logo" alt="howdycara handwritten graphic" />
         </header>
         
         <nav>
@@ -24,11 +27,24 @@
         </nav>
         
         <div id="content">
-            
-            <div id="slider">
-              <img src="http://placehold.it/1200x300" alt="placeholder"/>
-            </div>
-          
+          <div class="slider">    
+            <div class="flexslider">
+              <ul class="slides">
+                <li>
+                  <img src="http://placehold.it/1200x300" />
+                </li>
+                <li>
+                  <img src="http://placehold.it/1200x300" />
+                </li>
+                <li>
+                  <img src="http://placehold.it/1200x300" />
+                </li>
+                <li>
+                  <img src="http://placehold.it/1200x300" />
+                </li>
+              </ul>
+            </div> 
+          </div>
               <div class="quoteBar">
             
                 <div class="quoteBarInner">
@@ -63,4 +79,19 @@
       </div>
 
 </body>
+  
+  <script src="js/jquery-2.2.1.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script>
+      $(window).load(function() {
+        $('.flexslider').flexslider({
+          animation: "slide",
+          pauseOnHover: true,
+          touch: true,
+          controlNav: true,
+          slideshowSpeed: 4500
+        });
+      });
+  </script>
+  
 </html>
