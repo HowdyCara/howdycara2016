@@ -5,93 +5,101 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Howdy Cara | Graphic, web &amp; game designer | Louisville, KY</title>
-    <link rel="shortcut icon" href="favicon.ico">
+	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="stylesheet" href="css/main.css">
-    <link href='https://fonts.googleapis.com/css?family=Allerta' rel='stylesheet' type='text/css'>
-  	<link rel="stylesheet" href="css/flexslider.css">
+	<link href='https://fonts.googleapis.com/css?family=Allerta' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/flexslider.css">
 
 </head>
 
 <body>
-    <div id="wrapper">
-        <header>
-          <img src="img/howdy.png" class="logo" alt="howdycara handwritten graphic" />
-        </header>
-        
-        <nav>
-            <ul>
-                <a href="portfolio.html"><li>PORTFOLIO</li></a>
-                <a href="projects.html"><li>PROJECTS</li></a>
-                <a href="about.html"><li>ABOUT</li></a>
-            </ul>
-        </nav>
-        
-        <div id="content">
-          <div class="slider">    
-            <div class="flexslider">
-              <ul class="slides">
-                <li>
-                  <img src="http://placehold.it/1200x300" />
-                </li>
-                <li>
-                  <img src="http://placehold.it/1200x300" />
-                </li>
-                <li>
-                  <img src="http://placehold.it/1200x300" />
-                </li>
-                <li>
-                  <img src="http://placehold.it/1200x300" />
-                </li>
-              </ul>
-            </div> 
-          </div>
-              <div class="quoteBar">
-            
-                <div class="quoteBarInner">
-                  <p>Quotes will go here.</p>
-                </div>
-                
-              </div>   
-          
-              <div class="feeds">
-                <section>
-                  <img src="http://placehold.it/600x400" alt="placeholder twitter feed"/>
-                  <p>Twitter feed</p>
-                </section>
-                
-                <section>
-                  <img src="http://placehold.it/600x400" alt="placeholder game art"/>
-                  <p>Game art feed</p>
-                </section>
-                
-                <section>
-                  <img src="http://placehold.it/600x400" alt="placeholder logo"/>
-                  <p>logo feed</p>
-                </section> 
-              </div>
-          
-          <footer>
-              <p>Locally-made in Louisville, KY</p>
-              <p>&copy; Cara Smith 2016</p>
-          </footer>
-          
-        </div>
-      </div>
+	<div id="wrapper">
+		<header>
+			<img src="img/howdy.png" class="logo" alt="howdycara handwritten graphic" />
+		</header>
+
+		<nav>
+			<ul>
+				<a href="portfolio.html"><li>PORTFOLIO</li></a>
+				<a href="projects.html"><li>PROJECTS</li></a>
+				<a href="about.html"><li>ABOUT</li></a>
+			</ul>
+		</nav>
+
+		<div id="content">
+			<div class="slider">
+				<div class="flexslider">
+					<ul class="slides">
+						<li>
+							<img src="http://placehold.it/1200x300" />
+						</li>
+						<li>
+							<img src="http://placehold.it/1200x300" />
+						</li>
+						<li>
+							<img src="http://placehold.it/1200x300" />
+						</li>
+						<li>
+							<img src="http://placehold.it/1200x300" />
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="quoteBar">
+
+				<div id="quoteArea" class="quoteBarInner">
+					<p>Quotes will go here.</p>
+				</div>
+
+			</div>
+
+			<div class="feeds">
+				<section>
+					<img src="http://placehold.it/600x400" alt="placeholder twitter feed"/>
+					<p>Twitter feed</p>
+				</section>
+
+				<section>
+					<img src="http://placehold.it/600x400" alt="placeholder game art"/>
+					<p>Game art feed</p>
+				</section>
+
+				<section>
+					<img src="http://placehold.it/600x400" alt="placeholder logo"/>
+					<p>logo feed</p>
+				</section>
+			</div>
+
+			<footer>
+				<p>Locally-made in Louisville, KY</p>
+				<p>&copy; Cara Smith 2016</p>
+			</footer>
+
+		</div>
+	</div>
 
 </body>
-  
-  <script src="js/jquery-2.2.1.min.js"></script>
-    <script src="js/jquery.flexslider-min.js"></script>
-    <script>
-      $(window).load(function() {
-        $('.flexslider').flexslider({
-          animation: "slide",
-          pauseOnHover: true,
-          touch: true,
-          controlNav: true,
-          slideshowSpeed: 4500
-        });
-      });
-  </script>
-  
+
+<script src="js/jquery-2.2.1.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script>
+$(window).load(function() {
+	$('.flexslider').flexslider({
+		animation: "slide",
+		pauseOnHover: true,
+		touch: true,
+		controlNav: true,
+		slideshowSpeed: 4500
+	});
+});
+</script>
+
+<script src="js/handlebars.min.js"></script>
+<script id="quote-template" type="text/x-handlebars-template">
+	<span class="quote">{{quote}}</span>
+	<span class="name">{{name}}</span>
+</script>
+<script src="js/quotes.js"></script>
+
+
 </html>
