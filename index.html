@@ -54,15 +54,10 @@
 			</div>
 
 			<div class="feeds">
-				<section>
-					<img src="http://placehold.it/600x400" alt="placeholder game art"/>
-					<p>Game art feed</p>
-				</section>
+				<section id="game-feed-area"></section>
 
-				<section>
-					<img src="http://placehold.it/600x400" alt="placeholder logo"/>
-					<p>logo feed</p>
-				</section>
+				<section id="logo-feed-area"></section>
+
 				<section>
 					<a class="twitter-timeline" href="https://twitter.com/howdycara" data-widget-id="712081931605684224">Tweets by @howdycara</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
@@ -79,6 +74,8 @@
 
 </body>
 
+<!-- FLEXSLIDER -->
+
 <script src="js/jquery-2.2.1.min.js"></script>
 <script src="js/jquery.flexslider-min.js"></script>
 <script>
@@ -93,12 +90,29 @@ $(window).load(function() {
 });
 </script>
 
+<!-- HANDLEBARS -->
+
 <script src="js/handlebars.min.js"></script>
+
+<!-- QUOTES TEMPLATE -->
+
 <script id="quote-template" type="text/x-handlebars-template">
-	<span class="quote">{{quote}}</span>
-	<span class="name">{{name}}</span>
+	<span class="quote">"{{quote}}"</span>
+	<span class="name">&mdash;{{name}}</span>
 </script>
 <script src="js/quotes.js"></script>
+
+<!-- FEEDS TEMPLATE -->
+
+<script id="feeds-template" type="text/x-handlebars-template">
+	<div class="portfolio-item">
+		<img src="{{image}}" alt="{{image-alt}}" />
+		<div class="portfolio-content">
+			<h2>{{title}}</h2>
+		</div>
+	</div>
+</script>
+<script src="js/portfolio.js"></script>
 
 
 </html>

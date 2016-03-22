@@ -20,6 +20,11 @@ var quotes = [
       "name":"Luke E."
     },
 
+    {
+      "quote":"She likes slightly rounded square corners.",
+      "name":"Anonymous"
+    }
+
 ];
 
 function randomFrom(array) {
