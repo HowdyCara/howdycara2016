@@ -33,7 +33,7 @@ header {
   overflow: hidden;
 }
 
-header .logo { /* fix me */
+header .logo { /* FIX ME */
   width: 90%;
   top: -175px;
   position: relative;
@@ -137,6 +137,7 @@ nav ul li {
   .feeds {
     max-width: 1200px;
     width: 100%;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
   }
