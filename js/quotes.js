@@ -5,7 +5,7 @@ var quotes = [
   },
   {
       "quote":"Her hair is curly!",
-      "name":"Mom"
+      "name":"Cara's Mom"
   },
   {
       "quote":"Cara likes cats.",
@@ -20,10 +20,14 @@ var quotes = [
       "name":"Luke E."
     },
 
-    {
+  {
       "quote":"She likes slightly rounded square corners.",
       "name":"Anonymous"
-    }
+  },
+  {
+      "quote":"Cara's aesthetic was developed when she was struck by a meteorite.",
+      "name":"Laura P."
+  }
 
 ];
 
