@@ -8,7 +8,8 @@ body {
   background: linear-gradient(
     to bottom,
     rgba(62,180,178,1) 0%,
-    rgba(113,232,205,1) 125px
+    rgba(113,232,205,1) 125px,
+    rgba(255,255,255,1) 500px
   );
   background-attachment: fixed;
   color: #453629;
@@ -206,4 +207,73 @@ footer {
 
 #portfolio-items .portfolio-item img {
   width: 100%;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutSection p {
+  margin: 20px;
+}
+
+.pageWidth {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.aboutPic {
+  width: 100%;
+  max-width: 900px;
+}
+
+
+@media (min-width: 749px) {
+  .aboutSections {
+    display: flex;
+    flex-direction: row;
+  }
+  .aboutSection {
+    width: 50%;
+  }
+}
+
+
+@media (max-width: 750px) {
+  .aboutSections {
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutSection {
+    width: 100%;
+  }
+}
+
+.socialIcons {
+  display: flex;
+  flex-direction: row;
+}
+
+.socialIcon {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialIcons a {
+  width: 100%;
+  max-width: 100px;
+}
+
+.socialIcon a:hover {
+  opacity: 0.8;
+}
+
+.socialIcons img {
+  width: 100%;
+  max-width: 100px;
+  padding: 10px;
 }
