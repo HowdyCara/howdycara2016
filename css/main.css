@@ -177,21 +177,20 @@ footer {
 
 /* PORTFOLIO PAGE */
 
-@media (min-width: 749px) {
+@media (min-width: 959px) {
   #portfolio-items {
-    padding: 20px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
   }
-  #portfolio-items .portfolio-item {
+ #portfolio-items .portfolio-item {
     width: 33%;
-    margin: 15px;
 }
 }
 
 /* SMALL SCREENS */
 
-@media (max-width: 750px) {
+@media (max-width: 960px) {
   #portfolio-items {
     display: flex;
     flex-direction: column;
@@ -202,12 +201,14 @@ footer {
 }
 
 .portfolio-content {
-  padding: 20px;
+  padding-left: 20px;
 }
 
 #portfolio-items .portfolio-item img {
   width: 100%;
-}
+  padding: 10px;
+  margin: 0 auto;
+  }
 
 .flexColumn {
   display: flex;
