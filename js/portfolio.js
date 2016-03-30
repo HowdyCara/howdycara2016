@@ -45,7 +45,7 @@ var portfolioItems = [
       "type":"game"
   },
   {
-      "image":"img/800x600-adelante-01.jpg",
+      "image":"img/800x600-adelante-02.jpg",
       "image-alt":"Adelante Hispanic Achievers logo design and rebrand | Cara Smith",
       "title":"Logo & rebrand",
       "client":"Adelante Hispanic Achievers",
