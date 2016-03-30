@@ -1,5 +1,23 @@
 var portfolioItems = [
   {
+      "image":"img/800x600-hum-02.jpg",
+      "image-alt":"Humana interactive PDF tool | Cara Smith",
+      "title":"Interactive PDF tool",
+      "client":"Humana",
+      "date":"2016",
+      "description":"Custom tool designed for an interactive PDF that functions and navigates as an app in instances where an app cannot be used.",
+      "type":"design"
+  },
+  {
+      "image":"img/800x600-hum-01.jpg",
+      "image-alt":"Humana town hall presentation and corresponding graphics | Cara Smith",
+      "title":"Presentation graphics",
+      "client":"Humana",
+      "date":"2015",
+      "description":"Humana town hall presentation and corresponding graphics including signage and remote graphics used for the live stream feed for remote employees.",
+      "type":"design"
+  },
+  {
       "image":"img/800x600-electropolis-01.jpg",
       "image-alt":"Electropolis art and logo design | Cara Smith",
       "title":"Logo and art development",
@@ -42,7 +60,7 @@ var portfolioItems = [
       "client":"Louisville Makes Games!",
       "date":"2015",
       "description":"Flyer designed to serve as information for the newly-formed, non-profit organization.",
-      "type":"collateral"
+      "type":"design"
   },
   {
         "image":"img/800x600-urbanHoney-01.jpg",
@@ -53,6 +71,15 @@ var portfolioItems = [
         "description":"Gordon's Urban Honey - Ironically hipster game concept art and logo for 6-hour game jam.",
         "type":"game"
     },
+    {
+        "image":"img/800x600-free-01.jpg",
+        "image-alt":"Custom illustration for senior-focused business card | Cara Smith",
+        "title":"Illustration",
+        "client":"Freelance",
+        "date":"2012",
+        "description":"Custom illustration for senior-focused business card.",
+        "type":"logo"
+    },
   {
       "image":"img/800x600-lub-03.jpg",
       "image-alt":"LubriSynHA collateral design and rebrand | Cara Smith",
@@ -60,7 +87,7 @@ var portfolioItems = [
       "client":"LubriSynHA",
       "date":"2013",
       "description":"Flyer design and rebrand example of LubriSynHA",
-      "type":"collateral"
+      "type":"design"
   },
   {
       "image":"img/800x600-lub-01.jpg",
