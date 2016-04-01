@@ -63,8 +63,18 @@ var portfolioItems = [
       "type":"design"
   },
   {
+        "image":"img/800x600-art-01.jpg",
+        "image-alt":"Art: Suspended | Cara Smith",
+        "link":"http://howdycara.tumblr.com/post/119996679139/suspended",
+        "title":"Suspended",
+        "date":"2015",
+        "description":"A state of suspended emotion and the external influencers on the whole self.",
+        "type":"game"
+    },
+  {
         "image":"img/800x600-urbanHoney-01.jpg",
         "image-alt":"Gordon's Urban Honey concept art and logo for 6-hour game jam | Cara Smith",
+        "link":"http://howdycara.tumblr.com/post/138441196059/ive-been-really-bad-about-posting-what-ive",
         "title":"Logo and concept art",
         "client":"Game theme: bees",
         "date":"2015",

@@ -51,7 +51,6 @@
 			<div class="quoteBar">
 
 				<div id="quoteArea" class="quoteBarInner">
-					<p>Quotes will go here.</p>
 				</div>
 
 			</div>
@@ -108,9 +107,9 @@ $(window).load(function() {
 <!-- FEEDS TEMPLATE -->
 
 <script id="feeds-template" type="text/x-handlebars-template">
-	<div class="portfolio-item">
-		<img src="{{image}}" alt="{{image-alt}}" />
-		<div class="portfolio-content">
+	<div class="feed-item">
+		<a href="{{link}}"><img src="{{image}}" alt="{{image-alt}}" /></a>
+		<div class="feed-content">
 			<h2>{{title}}</h2>
 		</div>
 	</div>

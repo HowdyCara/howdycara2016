@@ -122,6 +122,8 @@ nav ul li {
   text-align: center;
 }
 
+/* FEEDS DESKTOP */
+
 @media (min-width: 749px) {
   .feeds {
     max-width: 1200px;
@@ -144,7 +146,7 @@ nav ul li {
   }
 }
 
-/* SMALL SCREENS */
+/* FEEDS SMALL SCREENS */
 
 @media (max-width: 750px) {
   .feeds {
@@ -154,10 +156,6 @@ nav ul li {
     display: flex;
     flex-direction: column;
   }
-}
-
-.feeds section {
-  /*background: blue;*/
 }
 
 .feeds section img {
@@ -175,7 +173,7 @@ footer {
 }
 
 
-/* PORTFOLIO PAGE */
+/* THREE COLUMN - PORTFOLIO PAGE */
 
 @media (min-width: 959px) {
   #portfolio-items {
@@ -183,12 +181,12 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
   }
-  .portfolio-item {
+  .portfolio-item, .feeds section {
     width: 33%;
-}
+  }
 }
 
-/* MEDIUM SCREENS */
+/* TWO COLUMN - MEDIUM SCREENS */
 
 @media (max-width: 960px) and (min-width: 599px) {
   #portfolio-items {
@@ -198,10 +196,10 @@ footer {
   }
   .portfolio-item {
     width: 50%;
-}
+  }
 }
 
-/* SMALL SCREENS */
+/* SINGLE COLUMN - SMALL SCREENS */
 
 @media (max-width: 600px) {
   #portfolio-items {
@@ -213,11 +211,11 @@ footer {
     }
 }
 
-.portfolio-content {
-  padding: 20px;
+.portfolio-content, .feed-content {
+  padding: 0 20px;
 }
 
-#portfolio-items .portfolio-item img {
+.portfolio-item img, .feed-item img {
   width: 100%;
   padding: 10px;
   margin: 0 auto;
