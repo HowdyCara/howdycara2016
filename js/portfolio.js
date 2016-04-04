@@ -144,7 +144,7 @@ var portfolioItems = [
   {
       "image":"img/800x600-lub-06.jpg",
       "image-alt":"Rebranded label design for LubriSynHA | Cara Smith",
-      "link":"http://howdycara.tumblr.com/post/142207102734/lublvs",
+      "link":"http://howdycara.tumblr.com/post/142197787879/lubrebrand",
       "title":"Rebranded product label design",
       "client":"LubriSynHA",
       "date":"2012",
