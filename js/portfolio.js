@@ -21,6 +21,7 @@ var portfolioItems = [
       "image":"img/800x600-electropolis-01.jpg",
       "image-alt":"Electropolis art and logo design | Cara Smith",
       "title":"Logo and art development",
+      "link":"http://howdycara.tumblr.com/post/142009655919/electropolis",
       "client":"Game theme: maximum capacity",
       "date":"2016",
       "description":"Art asset development and logo design for Electropolis for Train Jam 2016 - a 52 hour jam on a train from Chicago to San Francisco - a match-3 game about harnessing the power of lightning to power a city.",
@@ -74,7 +75,7 @@ var portfolioItems = [
   {
         "image":"img/800x600-urbanHoney-01.jpg",
         "image-alt":"Gordon's Urban Honey concept art and logo for 6-hour game jam | Cara Smith",
-        "link":"http://howdycara.tumblr.com/post/138441196059/ive-been-really-bad-about-posting-what-ive",
+        "link":"http://howdycara.tumblr.com/post/138441196059/6hrgamejam2015",
         "title":"Logo and concept art",
         "client":"Game theme: bees",
         "date":"2015",
@@ -93,6 +94,7 @@ var portfolioItems = [
   {
       "image":"img/800x600-lub-03.jpg",
       "image-alt":"LubriSynHA collateral design and rebrand | Cara Smith",
+      "link":"http://howdycara.tumblr.com/post/142197787879/lubrebrand",
       "title":"LubriSynHA Flyers",
       "client":"LubriSynHA",
       "date":"2013",
@@ -102,6 +104,7 @@ var portfolioItems = [
   {
       "image":"img/800x600-lub-01.jpg",
       "image-alt":"Gatefold brochure rebranded design for LubriSynHA - Pet | Cara Smith",
+      "link":"http://howdycara.tumblr.com/post/142197787879/lubrebrand",
       "title":"Rebranded gatefold brochure – Pet",
       "client":"LubriSynHA",
       "date":"2013",
@@ -111,6 +114,7 @@ var portfolioItems = [
   {
       "image":"img/800x600-lub-04.jpg",
       "image-alt":"Illustration and publication cover design for LubriSynLVS and Max-Strum | Cara Smith",
+      "link":"http://howdycara.tumblr.com/post/142207102734/lublvs",
       "title":"Illustration and design",
       "client":"LubriSynLVS and Max-Strum",
       "date":"2013",
@@ -120,6 +124,7 @@ var portfolioItems = [
   {
       "image":"img/800x600-lub-02.jpg",
       "image-alt":"Gatefold rebrand design for LubriSynHA - Equine| Cara Smith",
+      "link":"http://howdycara.tumblr.com/post/142197787879/lubrebrand",
       "title":"Rebranded gatefold brochure - Equine",
       "client":"LubriSynHA",
       "date":"2013",
@@ -129,15 +134,17 @@ var portfolioItems = [
   {
       "image":"img/800x600-lub-05.jpg",
       "image-alt":"Label design for a•ha! lip balm | Cara Smith",
+      "link":"",
       "title":"Product label design",
       "client":"LubriSynHA",
       "date":"2013",
-      "description":"Gatefold brochure design for equine products for LubriSynHA",
+      "description":"Label design for a•ha! lip balm - original and mint flavors.",
       "type":"design"
   },
   {
       "image":"img/800x600-lub-06.jpg",
       "image-alt":"Rebranded label design for LubriSynHA | Cara Smith",
+      "link":"http://howdycara.tumblr.com/post/142207102734/lublvs",
       "title":"Rebranded product label design",
       "client":"LubriSynHA",
       "date":"2012",
