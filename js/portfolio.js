@@ -1,5 +1,15 @@
 var portfolioItems = [
   {
+      "image":"img/800x600-eggCatch.jpg",
+      "image-alt":"Egg Catch! educational game concept | Cara Smith",
+      "title":"Educational class game art",
+      "link":"http://howdycara.tumblr.com/post/144345755209/egg-catch-game-art-concepts",
+      "client":"Louisville Makes Games!",
+      "date":"2016",
+      "description":"I created simple art for an educational class held at Warp Zone Louisville for the non-profit Louisville Makes Games!",
+      "type":"game"
+  },
+  {
       "image":"img/800x600-hum-02.jpg",
       "image-alt":"Humana interactive PDF tool | Cara Smith",
       "title":"Interactive PDF tool",
@@ -30,7 +40,7 @@ var portfolioItems = [
   {
       "image":"img/800x600-wzl-01.jpg",
       "image-alt":"Warp Zone Louisville logo design and branding | Cara Smith",
-      "title":"Logo & branding",
+      "title":"Logo and branding",
       "client":"Louisville Makes Games!",
       "date":"2016",
       "description":"Warp Zone Louisville logo design and branding.",
