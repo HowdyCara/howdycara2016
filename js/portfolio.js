@@ -1,5 +1,35 @@
 var portfolioItems = [
   {
+      "image":"img/800x600-shift.jpg",
+      "image-alt":"SHIFT logo design | Cara Smith",
+      "title":"Logo and branding",
+      "link":"http://howdycara.tumblr.com/post/144350064164/shift",
+      "client":"SHIFT",
+      "date":"2016",
+      "description":"SHIFT logo design.",
+      "type":"logo"
+  },
+  {
+      "image":"img/800x600-morningRitual-01.jpg",
+      "image-alt":"Morning Ritual game art concept and logo design | Cara Smith",
+      "title":"Game art development and logo design",
+      "link":"http://twoscoopgames.com/morningritual/",
+      "client":"Game theme: ritual",
+      "date":"2016",
+      "description":"Art asset development and logo design for Morning Ritual - A concept game I worked on with Two Scoop Games and Chris Kinkaid for Global Game Jam 2016.",
+      "type":"game"
+  },
+  {
+      "image":"img/800x600-elementUndesired.jpg",
+      "image-alt":"Element Undesired game art concept | Cara Smith",
+      "title":"Game art development and animation",
+      "link":"http://howdycara.tumblr.com/post/142975637134/ludum-dare-35",
+      "client":"Game theme: shapeshift",
+      "date":"2016",
+      "description":"Art asset development and logo design for Element Undesired - A concept game I worked on with a developer for Ludum Dare 35.",
+      "type":"game"
+  },
+  {
       "image":"img/800x600-eggCatch.jpg",
       "image-alt":"Egg Catch! educational game concept | Cara Smith",
       "title":"Educational class game art",
@@ -11,20 +41,20 @@ var portfolioItems = [
   },
   {
       "image":"img/800x600-hum-02.jpg",
-      "image-alt":"Humana interactive PDF tool | Cara Smith",
+      "image-alt":"Interactive PDF tool | Cara Smith",
       "title":"Interactive PDF tool",
-      "client":"Humana",
+      "client":"",
       "date":"2016",
-      "description":"Custom tool designed for an interactive PDF that functions and navigates as an app in instances where an app cannot be used.",
+      "description":"Custom tool designed for an interactive PDF that functions and navigates as an app in instances where an app cannot be used. Contact me for additional information.",
       "type":"design"
   },
   {
       "image":"img/800x600-hum-01.jpg",
-      "image-alt":"Humana town hall presentation and corresponding graphics | Cara Smith",
+      "image-alt":"Town hall presentation and corresponding graphics | Cara Smith",
       "title":"Presentation graphics",
-      "client":"Humana",
+      "client":"",
       "date":"2015",
-      "description":"Humana town hall presentation and corresponding graphics including signage and remote graphics used for the live stream feed for remote employees.",
+      "description":"Town hall presentation and corresponding graphics including signage and remote graphics used for the live stream feed for remote employees. Contact me for additional information.",
       "type":"design"
   },
   {
@@ -59,6 +89,7 @@ var portfolioItems = [
       "image":"img/800x600-adelante-02.jpg",
       "image-alt":"Adelante Hispanic Achievers logo design and rebrand | Cara Smith",
       "title":"Logo & rebrand",
+      "link":"http://howdycara.tumblr.com/post/144353942139/adelante",
       "client":"Adelante Hispanic Achievers",
       "date":"2016",
       "description":"Adelante Hispanic Achievers logo design and rebrand.",
